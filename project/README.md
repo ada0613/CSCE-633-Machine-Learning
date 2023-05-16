@@ -6,6 +6,9 @@ Deep AUC Maximization (DAM) has shown promising results in various machine learn
 ## Introduction
 DAM has emerged as a powerful technique for learning deep neural networks by maximizing the AUC score of a model on a dataset. Despite its successful applications in various machine learning tasks, its generalization ability is often hindered when applied to small datasets, resulting in overfitting. This repository contains the code and resources associated with the study that aims to address this limitation and enhance the generalization of DAM for medical image classification tasks, specifically when working with small datasets.
 
+## Dataset
+The experiments were conducted using the MedMNIST dataset. You can download the dataset from [here](https://github.com/MedMNIST/MedMNIST).
+
 ## Methodology
 Experiments were conducted on seven medical image classification tasks from the MedMNIST dataset, utilizing the LibAUC library. Different network structures were explored to improve the performance of DAM on these tasks, with a focus on surpassing the benchmark results reported in the MedMNIST paper.
 
